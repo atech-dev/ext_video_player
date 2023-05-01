@@ -16,8 +16,8 @@ flutter:
         default_package: video_player_web
 
 dependencies:
-  meta: "^1.0.5"
-  video_player_platform_interface: ^4.1.0
+  meta: ">=1.0.5 <=2.0.0"
+  video_player_platform_interface: '>=4.2.0 <=6.1.0'
 
   # The design on https://flutter.dev/go/federated-plugins was to leave
   # this constraint as "any". We cannot do it right now as it fails pub publish
